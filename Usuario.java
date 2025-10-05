@@ -6,8 +6,14 @@ import java.io.IOException;
 public class Usuario extends Pessoa implements AcaoUsuario{       
 
 
+private String email;
 
-    private String email;
+@Override
+public String toString() {
+    return dados();
+}
+
+
     private int NLogin;
     private int Senha;
     private Boolean logar;
