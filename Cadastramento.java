@@ -9,8 +9,8 @@ public class Cadastramento {
         conta [0].logar(1921);
         conta [1].logar(7799);
         conta [2].logar(2299);
-        //impriminfo dados dos usuarios 
-        conta [0].imprimir();
+  
+    
         
     }
 }
