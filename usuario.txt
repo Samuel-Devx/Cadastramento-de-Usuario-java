@@ -1,8 +1,0 @@
--------Dados Usuário--------
-Nome: Samuel
-Idade: 18
-Sexo: Maculino
-----------Dados Conta-----------
-Email: samue123@gamil.com
-Número login: 213
-Status: true

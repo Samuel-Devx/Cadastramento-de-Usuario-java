@@ -68,17 +68,7 @@ public String toString() {
     public void setSenha(int senha) {
         Senha = senha;
     }
-    public void exportar(String conteudo, String caminhoArquivo) {
-        try (BufferedWriter writer = new BufferedWriter(new FileWriter(caminhoArquivo))) {
-            writer.write(conteudo);
-            System.out.println("Arquivo salvo em: " + caminhoArquivo);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
-    public void imprimir () {
-        exportar(dados(), "usuario.txt");
-    }
+    
 
     @Override
     public void logar(int s) {
